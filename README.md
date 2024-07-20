@@ -1,7 +1,3 @@
-It seems there's an issue generating a download link directly. However, you can still manually create the `README.md` file by copying the content below and pasting it into your preferred text editor.
-
-### Content for `README.md`
-
 ```markdown
 # Facial Expression Recognition Application
 
@@ -10,6 +6,7 @@ This project is a web application for real-time facial expression recognition us
 ## Project Structure
 
 ```
+
 /Facial-Expression-Recognition
 │
 ├── Application
@@ -43,6 +40,7 @@ This project is a web application for real-time facial expression recognition us
 ├── Dataset
 │
 ├── Reports
+
 ```
 
 ## Features
