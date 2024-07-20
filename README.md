@@ -1,4 +1,3 @@
-```markdown
 # Facial Expression Recognition Application
 
 This project is a web application for real-time facial expression recognition using different machine learning models. The application is built using Streamlit and deployed using Docker.
