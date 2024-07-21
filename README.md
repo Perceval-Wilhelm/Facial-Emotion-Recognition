@@ -6,39 +6,38 @@ This project is a web application for real-time facial expression recognition us
 
 ```
 
-/Facial-Expression-Recognition
+Facial-Expression-Recognition
 │
 ├── Application
 │   ├── app.py
 │   ├── haarcascade_frontalface_default.xml
 │   ├── Dockerfile
 │   ├── requirements.txt
-│   ├── docker-compose.yml (optional)
+│   └── docker-compose.yml (optional)
 │
 ├── Code
 │   ├── CNN_from_scratch_method
 │   │   ├── CNN_from_scratch.ipynb
-│   │   ├── model
+│   │   └── model
 │   │       ├── best_face_model.json
-│   │       ├── best_model.h5
+│   │       └── best_model.h5
 │   │
 │   ├── DeepFace_method
-│   │   ├── DeepFace.ipynb
+│   │   └── DeepFace.ipynb
 │   │
 │   ├── Demo_CNN_method
-│   │   ├── CNN_demo_real_time.py
+│   │   └── CNN_demo_real_time.py
 │   │
 │   ├── Demo_DeepFace_method
-│   │   ├── DeepFace_demo_real_time.py
+│   │   └── DeepFace_demo_real_time.py
 │   │
 │   ├── SVM_method
 │       ├── model
-│       │   ├── svm_emotion_model.joblib
-│       ├── SVM.ipynb
+│       │   └── svm_emotion_model.joblib
+│       └── SVM.ipynb
 │
 ├── Dataset
-│
-├── Reports
+└── Reports
 
 ```
 
