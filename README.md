@@ -87,7 +87,7 @@ Open your web browser and navigate to `http://localhost:8501` to see the applica
 
 If you prefer to use Docker, you can pull and run the Docker image directly from Docker Hub.
 
-   2.1. **Pulling the Docker Image**
+   1. **Pulling the Docker Image**
    
       To pull the Docker image from Docker Hub, use the following command:
       
@@ -95,7 +95,7 @@ If you prefer to use Docker, you can pull and run the Docker image directly from
       docker pull percevalwilhelm/emotion-detection-app
       ```
    
-   2.2. **Running the Docker Container**
+   2. **Running the Docker Container**
    
       Run the Docker container using:
       
