@@ -31,7 +31,7 @@ Facial-Expression-Recognition
 │   ├── Demo_DeepFace_method
 │   │   └── DeepFace_demo_real_time.py
 │   │
-│   ├── SVM_method
+│   └── SVM_method
 │       ├── model
 │       │   └── svm_emotion_model.joblib
 │       └── SVM.ipynb
