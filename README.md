@@ -87,43 +87,43 @@ Open your web browser and navigate to `http://localhost:8501` to see the applica
 
 If you prefer to use Docker, you can pull and run the Docker image directly from Docker Hub.
 
-##### 2.1 Pulling the Docker Image
+2.1. **Pulling the Docker Image**
 
-To pull the Docker image from Docker Hub, use the following command:
+   To pull the Docker image from Docker Hub, use the following command:
+   
+   ```bash
+   docker pull percevalwilhelm/emotion-detection-app
+   ```
 
-```bash
-docker pull percevalwilhelm/emotion-detection-app
-```
+2.2. **Running the Docker Container**
 
-##### 2.2 Running the Docker Container
+   Run the Docker container using:
+   
+   ```bash
+   docker run -p 8501:8501 percevalwilhelm/emotion-detection-app
+   ```
 
-Run the Docker container using:
+   You can now access the application in your web browser at `http://localhost:8501`.
 
-```bash
-docker run -p 8501:8501 percevalwilhelm/emotion-detection-app
-```
+#### 3. Using Docker
 
-You can now access the application in your web browser at `http://localhost:8501`.
-
-##### 3. Using Docker
-
-1. **Build the Docker Image:**
+3.1. **Build the Docker Image:**
 
    ```bash
    docker build -t emotion-detection-app .
    ```
 
-2. **Run the Docker Container:**
+3.2. **Run the Docker Container:**
 
    ```bash
    docker run -p 8501:8501 emotion-detection-app
    ```
 
-3. Open your web browser and navigate to `http://localhost:8501` to access the application.
+3.3. Open your web browser and navigate to `http://localhost:8501` to access the application.
 
-##### 4. Using Docker Compose (Optional)
+#### 4. Using Docker Compose (Optional)
 
-1. Create a `docker-compose.yml` file in the `Application` directory with the following content:
+4.1. Create a `docker-compose.yml` file in the `Application` directory with the following content:
 
    ```yaml
    version: '3'
@@ -134,13 +134,13 @@ You can now access the application in your web browser at `http://localhost:8501
          - "8501:8501"
    ```
 
-2. **Run Docker Compose:**
+4.2. **Run Docker Compose:**
 
    ```bash
    docker-compose up
    ```
 
-3. Open your web browser and navigate to `http://localhost:8501` to access the application.
+4.3. Open your web browser and navigate to `http://localhost:8501` to access the application.
 
 ### File Details
 
