@@ -19,8 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Copy the model files into the container
-COPY models /app/model
-COPY models /app/svm_model
+COPY ./models ./app/model
 
 # Expose the port Streamlit will run on
 EXPOSE 8501

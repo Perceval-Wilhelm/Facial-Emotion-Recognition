@@ -9,13 +9,12 @@ from joblib import load
 from PIL import Image
 
 # Load pre-trained models
-# Load pre-trained models
-cnn_model = load_model('/app/model/best_model.h5')  # Path to your trained CNN model within the container
-svm_model = load('/app/svm_model/svm_emotion_model.joblib')  # Path to your trained SVM model within the container
+cnn_model = load_model('app/model/best_model.h5')  # Path to your trained CNN model within the container
+svm_model = load('app/model/svm_emotion_model.joblib')  # Path to your trained SVM model within the container
 emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3: "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 # Define paths for Haarcascade and DeepFace models
-haarcascade_path = '/app/haarcascade_frontalface_default.xml'  # Path to haarcascade within the container
+haarcascade_path = './haarcascade_frontalface_default.xml'  # Path to haarcascade within the container
 face_cascade = cv2.CascadeClassifier(haarcascade_path)
 
 def extract_hog_features(image_array):
