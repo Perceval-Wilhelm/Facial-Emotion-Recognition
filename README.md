@@ -8,7 +8,7 @@ This project is a web application for real-time facial expression recognition us
 https://github.com/user-attachments/assets/2154173c-53ab-42e3-a8c2-cb64f85cc313
 
 ### Application demo
-
+https://github.com/user-attachments/assets/59294091-ecab-4fe6-82cc-7cddfd801b23
 
 ## Project Structure
 
