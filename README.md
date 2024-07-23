@@ -2,6 +2,14 @@
 
 This project is a web application for real-time facial expression recognition using different machine learning models. The application is built using Streamlit and deployed using Docker.
 
+## Demo
+
+### Real-time demo
+https://github.com/user-attachments/assets/3630185b-c1f3-47bf-9c00-886292a4c1b9
+
+### Application demo
+https://github.com/user-attachments/assets/59294091-ecab-4fe6-82cc-7cddfd801b23
+
 ## Project Structure
 
 ```
